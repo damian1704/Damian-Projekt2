@@ -1,0 +1,212 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 10px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("https://i.postimg.cc/63TGSt8x/pexels-ayu-shakya-1294229.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+ 
+/*header*/
+
+header {
+    display: flex;
+    margin-top:  200px auto;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+header h1 {
+    position: relative;
+}
+
+header .logo-title  {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+    line-height: 0.6;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header .logo-title span {
+    color: #81ecec;
+    font-size: 40px;
+}
+
+.icons i {
+    font-size: 50px;
+    padding-bottom: 50px;
+    color:#81ecec;
+    padding: 30px 0; 
+    position: absolute;  
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+form .input-one {
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 8px;
+}
+
+form .input-one:hover {
+    background: #ecf0f1;
+}
+
+form .button-one {
+    border-radius: 20px;
+    width: 60px;
+    height: 40px;
+    color: black;
+}
+
+form .button-one:hover {
+    background: #ecf0f1;
+}
+
+form .button-one i {
+    background: #8e44ad;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+
+/*container*/
+
+.box {
+    display: flex; 
+    flex-wrap: wrap;
+}  
+
+.work {
+    margin-bottom: 80px;
+    flex: 0 0 33.33%;
+ }
+
+.work-image img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #81ecec;
+    border-radius: 10px;   
+}
+
+.work-description {
+    text-align: left;
+    width: 280px;
+}
+
+.work-description p:first-of-type {
+    font-size: 12px;
+}
+
+.work-description p span {
+    color: #81ecec;
+    font-size: 15px;
+}
+
+.work-description .btn {
+    display: inline-block;
+    border: 1px solid #81ecec;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #81ecec;
+    width: 120px;
+    padding: 10px;
+    margin: 5px 60px 5px 100px;
+}
+
+/*nav pagination*/
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    /*margin: 0 450px 60px;*/
+}
+
+.pagination li {
+    list-style-type: none;
+    margin: 2px;
+}
+
+.pagination li  {
+    font-size: 18px;
+    border: 1px solid  #81ecec;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px;
+    padding: 3px;
+}
+
+.pagination li a {
+    text-decoration: none;
+}
+
+
+.pagination .one {
+    background: #81ecec;
+    color: #4834d4;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.pagination .two {
+    color:#81ecec;
+    border: 1px solid #81ecec;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/*ikonka nawigacji*/
+
+.icons-two {
+    position:fixed;
+    top: 90%;
+    left: 95%;
+}
+
+.icons-two i {
+    color:#81ecec;
+    font-size: 30px;
+    
+}
+
+.icons-two i:hover {
+    color: white;
+    transform: rotate(360deg);
+    transition-duration: 0.2s;
+}
+
+/*media*/
+
+@media (max-width: 767px) {
+    .box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-image {
+        max-width: 100%;
+    }
+}
+
+

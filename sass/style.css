@@ -181,7 +181,7 @@ form .button-one i {
 .icons-two {
     position:fixed;
     top: 90%;
-    left: 90%;
+    left: 95%;
 }
 
 .icons-two i {
@@ -208,6 +208,9 @@ form .button-one i {
         max-width: 100%;
     }
 
+    .icons-two {
+        left: 85%;
+    }
 
 }
 

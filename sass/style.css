@@ -53,6 +53,7 @@ form {
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
+    position:relative;
 }
 
 form .input-one {
@@ -60,25 +61,21 @@ form .input-one {
     width: 400px;
     height: 40px;
     padding-left: 20px;
-    font-size: 8px;
+    font-size: 14px;
 }
 
-form .input-one:hover {
-    background: #ecf0f1;
-}
 
-form .button-one {
+.btn-uno {
     border-radius: 20px;
     width: 60px;
     height: 40px;
     color: black;
+    position:absolute;
+    left: 61%;
+    top: 14%;
 }
 
-form .button-one:hover {
-    background: #ecf0f1;
-}
-
-form .button-one i {
+.btn-uno i {
     background: #8e44ad;
     color: white;
     border-radius: 50%;
@@ -87,6 +84,47 @@ form .button-one i {
     padding: 8px;
 }
 
+/*navi
+
+.navi {
+    width: 350px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navi li  {
+    list-style-type: none;
+}
+
+.navi li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navi li a:hover {
+    border-radius: 20px;
+    background: #dfe6e9;
+}
+
+
+.navi img  {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: -25px;
+    padding: 0;
+}
+
+
+.image-one:hover, .image-two:hover {
+    border: 1px solid #8e44ad;
+}
 
 /*container*/
 
@@ -140,7 +178,6 @@ form .button-one i {
 .pagination {
     display: flex;
     justify-content: center;
-    /*margin: 0 450px 60px;*/
 }
 
 .pagination li {
@@ -182,19 +219,18 @@ form .button-one i {
     position:fixed;
     top: 90%;
     left: 95%;
+    height: 20px;
+    width: 100%;
+    display: flex;
+
+
 }
 
 .icons-two i {
     color:#81ecec;
     font-size: 30px;
-    
 }
 
-.icons-two i:hover {
-    color: white;
-    transform: rotate(360deg);
-    transition-duration: 0.2s;
-}
 
 /*media*/
 
@@ -210,6 +246,10 @@ form .button-one i {
 
     .icons-two {
         left: 85%;
+    }
+
+    .btn-uno {
+        left: 90%;
     }
 
 }

@@ -8,7 +8,6 @@ body {
     background-image: url("https://i.postimg.cc/63TGSt8x/pexels-ayu-shakya-1294229.jpg");
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; 
     color: white;
     display: flex;
     flex-direction: column;
@@ -82,48 +81,6 @@ form .input-one {
     font-size: 12px;
     text-align: center;
     padding: 8px;
-}
-
-/*navi
-
-.navi {
-    width: 350px;
-    height: 200px;
-    background: white;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-}
-
-
-.navi li  {
-    list-style-type: none;
-}
-
-.navi li a {
-    text-decoration: none;
-    color: gray;
-}
-
-.navi li a:hover {
-    border-radius: 20px;
-    background: #dfe6e9;
-}
-
-
-.navi img  {
-    width: 35px;
-    height: 35px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: -25px;
-    padding: 0;
-}
-
-
-.image-one:hover, .image-two:hover {
-    border: 1px solid #8e44ad;
 }
 
 /*container*/
